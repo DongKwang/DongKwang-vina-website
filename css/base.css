@@ -1,0 +1,274 @@
+body{
+  overflow: hidden;
+  overflow-y: auto;
+  margin:0px;
+  font-family: sans-serif;
+  color:#777;
+}
+a{
+  text-decoration: none;
+}
+header{
+  border-bottom: 0px solid #999;
+  position: relative;
+}
+header::after{
+  content:'';
+  display:table;
+  clear:both;
+}
+
+.search-bg{
+  text-align: center;
+  background-color:#111
+}
+.search-box{
+  width: 1200px;
+  margin: 0 auto;
+
+  padding: 4px 0 5px 0;
+  position:relative;
+}
+.search-box-position{
+  position: relative;
+  left: 270px;
+}
+.search-bar{
+  position: relative;
+}
+.search-icon{
+  margin-left: -2px;
+}
+#search-btn{
+  background-color: #9c9c9c;
+  width:30px;
+  text-align: center;
+  border-radius: 2px;
+  padding:0px;
+
+  position:relative;
+}
+#search-btn img{
+  width:14px;
+  height: auto;
+}
+.lang{
+  margin-left: 25%;
+  padding-left: 4px;
+  color: #999;
+}
+.lang a{
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.lang a:link{
+  color: #dedede;
+}
+.lang a:visited{
+  color: #dedede;
+}
+.lang a:hover{
+  color: #888;
+}
+.cu_lang{
+  font-size: 20px;
+}
+.top-bg{
+  text-align: center;
+
+  position: relative;
+  height: 7vw;
+
+  background-color: #3c3c3c;
+}
+.menu-box {
+  width: 1200px;
+  margin: 0 auto;
+
+  position: relative;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+}
+.menu-box h1{
+  font-size: 0px;
+}
+.logo{
+  float: left;
+  line-height: 70px;
+  height: 65px;
+  width: auto;
+  margin-top: 15px;
+  display: inline-block;
+  position: relative;
+  left: 50px;
+}
+
+nav{
+  position: relative;
+  top: 25px;
+  left: 10px;
+  float:right;
+}
+nav ul{
+  margin:0px;
+  padding:0px;
+  list-style: none;
+}
+nav li{
+  display:inline-block;
+  margin-left:35px;
+  padding-top:32px;
+
+  position:relative;
+}
+nav a{
+  padding:3px;
+
+  color:#9f9f9f;
+  text-decoration: none;
+  text-transform:uppercase;
+  font-family: Arial;
+
+  font-size: 12px;
+  top: -5px;
+  position: relative;
+}
+nav a:hover{
+  color:#fff; /*메뉴 선택 색상 (남색)119*/
+}
+nav a::before{
+  content: '';
+  display:block;
+  height:4px;
+  background-color:#999; /*남색 밑줄 #3e5e9f*/
+
+  position:absolute;
+  top:20px;
+  width:0%;
+
+  -webkit-transition:all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+}
+nav a:hover::before{
+  width:100%;
+}
+
+/* ㄴ----상단 메뉴style 속성----*/
+
+/* ----본문 style 속성----ㄱ*/
+
+section{
+  /*height:600px;*/
+  background-color: #fefefe;
+
+  position: relative;
+}
+
+footer{
+  height: 100px;
+  color: #fff;
+  background-color: #1f1f1f;
+}
+.btm-box h2{
+  text-decoration: none;
+  display: inline-block;
+}
+.btm-box{
+  width: 800px;
+  height: 90px;
+  display: grid;
+  grid-template-columns: 140px 2fr;
+  position: relative;
+  left: 50%;
+  margin-left: -500px;
+}
+.btm-logo{
+  left: 50%;
+  margin-left: -50px;
+  position: relative;
+  top: 50%;
+  margin-top: -25px;
+  height: 70px;
+  width: auto;
+  display: inline-block;
+}
+.btm-logo img{
+  height: 9vh;
+  width: auto;
+  position: relative;
+
+  display: inline-block;
+
+}
+.btm-text{
+  font-size: 2px;
+  float: left;
+  position: relative;
+  line-height: 2.5vh;
+  padding: 2px 0px;
+  display: inline-block;
+  height: 86px;
+  width: auto;
+  top: 10px;
+}
+.btm-text Address{
+  position: relative;
+  line-height: 2.5vh;
+  padding: 5px 0px 5px 0px;
+  height: 45px;
+}
+
+.btm-text .copyright{
+  position: relative;
+  margin-top: 5px;
+}
+h2{
+    display: inline-block;
+}
+/*
+footer{
+  width:100%;
+  height:50px;
+
+  position: relative;
+  margin-top: 200px;
+  background-color:#222;
+  color:#fff;
+  font-size: 15px;
+
+  background-color: #1f1f1f;
+  text-align: center;
+  height: 60px;
+  font-size: 12px;
+  font-family: sans-serif;
+  padding: 10px 0 20px 0;
+  margin: 0px;
+}
+.bottom-box{
+  width: 80%;
+  position:relative;
+  left: 8%;
+}
+.bottom-box_logo img{
+  width: 50px;
+  margin-top: 8px;
+  height: auto;
+  float:left;
+  position: relative;
+}
+.bottom-box_text{
+  position: relative;
+  top: 7px;
+  left:30px;
+}
+.bottom-box Address{
+  font-style: normal;
+  position: relative;
+}
+.bottom-box .copyright{
+  top: 5px;
+  position: relative;
+}
+*/
